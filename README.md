@@ -24,22 +24,11 @@ nvim
 ```bash
 git clone https://github.com/NeptuneCipher42/FishVim2.0.git
 cd FishVim2.0
+unzip config.zip
 ./scripts/bootstrap/macos.sh
 mv ~/FishVim2.0/config ~/.config
 nvim
 ```
-
-### Windows (PowerShell)
-
-```powershell
-Set-ExecutionPolicy -Scope Process Bypass
-git clone https://github.com/NeptuneCipher42/FishVim2.0.git
-cd FishVim2.0
-./scripts/bootstrap/windows.ps1
-mv ~/FishVim2.0/config ~/.config
-nvim
-```
-
 What these scripts do:
 - Install system dependencies (`git`, `ripgrep`, `fd`, `node`, `python`, `unzip`, etc.)
 - Copy FishVim config into the Neovim config directory (`~/.config/nvim` or `%LOCALAPPDATA%\nvim`)
