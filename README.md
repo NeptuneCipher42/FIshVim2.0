@@ -11,6 +11,7 @@ Clone the repo, run one bootstrap script for your OS, then open Neovim.
 ### Linux / WSL (Ubuntu)
 
 ```bash
+git clone https://github.com/NeptuneCipher42/FishVim2.0.git
 cd FishVim1.0
 ./scripts/bootstrap/linux-ubuntu.sh
 mv ~/FishVim2.0/config ~/.config
@@ -20,6 +21,7 @@ nvim
 ### macOS
 
 ```bash
+git clone https://github.com/NeptuneCipher42/FishVim2.0.git
 cd FishVim1.0
 ./scripts/bootstrap/macos.sh
 mv ~/FishVim2.0/config ~/.config
@@ -30,6 +32,7 @@ nvim
 
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
+git clone https://github.com/NeptuneCipher42/FishVim2.0.git
 cd FishVim1.0
 ./scripts/bootstrap/windows.ps1
 mv ~/FishVim2.0/config ~/.config
